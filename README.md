@@ -1,0 +1,2 @@
+This is a very basic SPAM Email detection classifier. We have a training dataset of 700 emails, consisiting of 350 Spam and 350 Non-Spam emails. 
+We first find the most common 3000 words, then perform one-hot encoding of the training set, and then train three different classifiers, namely Linear SVM, Binomial Naive Bayes & Multi-nomial Naive Bayes. Performance of Test Emails (260) is also given at the end. 
